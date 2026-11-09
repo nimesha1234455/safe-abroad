@@ -1,0 +1,36 @@
+name: agency_checker_lk
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  http: ^1.6.0
+  url_launcher: ^6.3.3
+  shared_preferences: ^2.5.6
+  geolocator: ^14.1.2
+  flutter_map: ^8.3.2
+  latlong2: ^0.10.1
+  google_mlkit_translation: ^0.14.0
+  flutter_tts: ^4.2.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/header.jpg
+    - assets/images/splash_top.jpg
+    - assets/images/splash_bottom.jpg
